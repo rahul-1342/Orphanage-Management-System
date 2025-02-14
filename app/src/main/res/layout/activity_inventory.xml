@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etItemName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Item Name"
+        android:inputType="text"
+        android:background="@drawable/input_background"
+        android:padding="12dp" />
+
+    <EditText
+        android:id="@+id/etItemQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Item Quantity"
+        android:inputType="number"
+        android:background="@drawable/input_background"
+        android:padding="12dp"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btnAddItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Item"
+        android:layout_marginTop="16dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvInventoryList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

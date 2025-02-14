@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Event Title -->
+    <EditText
+        android:id="@+id/etEventTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Event Title"
+        android:padding="12dp"
+        android:background="@drawable/input_background"
+        android:layout_marginBottom="8sp"
+        android:inputType="text" />
+
+    <!-- Event Description -->
+    <EditText
+        android:id="@+id/etEventDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Event Description"
+        android:padding="12dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/input_background"
+        android:inputType="textMultiLine" />
+
+    <!-- Event Date -->
+    <EditText
+        android:id="@+id/etEventDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Event Date"
+        android:padding="12dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/input_background"
+        android:inputType="date" />
+
+    <!-- Event Time -->
+    <EditText
+        android:id="@+id/etEventTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Event Time"
+        android:padding="12dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/input_background"
+        android:inputType="time" />
+
+    <!-- Event Category -->
+    <Spinner
+        android:id="@+id/spinnerEventCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/event_categories"/>
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/btnSubmitEvent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Create Event" />
+</LinearLayout>

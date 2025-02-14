@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <!-- Logo -->
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/orphan"
+        android:contentDescription="Orphanage Logo" />
+
+    <!-- App Name -->
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logoImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Orphanage Management System"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!-- Tagline -->
+    <TextView
+        android:id="@+id/tagline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/appName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:text="Caring for Every Child"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+</RelativeLayout>

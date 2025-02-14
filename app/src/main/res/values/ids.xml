@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btnAddDonor" type="id" />
+    <item name="lvDonors" type="id" />
+    <item name="tvManageDonors" type="id" />
+    <item name="lvChildren" type="id" />
+    <item name="btnAddChild" type="id" />
+    <item name="tvManageChildren" type="id" />
+    <item name="etDonorName" type="id" />
+    <item name="etDonationAmount" type="id" />
+    <item name="btnSaveDonor" type="id" />
+    <item name="lvStaff" type="id" />
+    <item name="btnAddStaff" type="id" />
+    <item name="etStaffName" type="id" />
+    <item name="etStaffRole" type="id" />
+    <item name="btnSaveStaff" type="id" />
+    <item name="tvManageEvents" type="id" />
+    <item name="lvEvents" type="id" />
+    <item name="btnAddEvent" type="id" />
+    <item name="etEventName" type="id" />
+    <item name="etEventDate" type="id" />
+    <item name="btnSaveEvent" type="id" />
+    <item name="etChildGender" type="id" />
+    <item name="etChildDescription" type="id" />
+    <item name="btnSaveChild" type="id" />
+    <item name="submitButton" type="id" />
+    <item name="textViewTitle" type="id" />
+    <item name="textViewDate" type="id" />
+    <item name="et_child_name" type="id" />
+    <item name="et_child_age" type="id" />
+    <item name="et_child_health" type="id" />
+    <item name="et_child_admission_date" type="id" />
+    <item name="et_child_education" type="id" />
+    <item name="btn_save_child" type="id" />
+    <item name="btn_delete_child" type="id" />
+    <item name="btnManageChildren" type="id" />
+    <item name="tvReport" type="id" />
+    <item name="btnRefreshReports" type="id" />
+</resources>

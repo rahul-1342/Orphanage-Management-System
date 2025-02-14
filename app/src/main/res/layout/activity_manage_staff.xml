@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F4F6"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvManageStaff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Staff"
+        android:textSize="20sp"
+        android:textColor="#333"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentTop="true" />
+
+    <ListView
+        android:id="@+id/lvStaff"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_below="@id/tvManageStaff"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnAddStaff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add New Staff"
+        android:layout_alignParentBottom="true"
+        android:background="#FF6200EE"
+        android:textColor="#FFF"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp" />
+</RelativeLayout>

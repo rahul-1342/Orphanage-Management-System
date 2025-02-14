@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Orphanage"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".AddDonorActivity"
+            android:label="Add Donor" />
+        <activity
+            android:name=".AddStaffActivity"
+            android:label="Add Staff" />
+        <activity
+            android:name=".ManageAdoptionActivity"
+            android:label="Manage adopt" />
+        <activity
+            android:name=".ManageDonorsActivity"
+            android:label="Manage Donor" />
+        <activity
+            android:name=".ManageEventsActivity"
+            android:label="Manage Event" />
+        <activity
+            android:name=".AddEventActivity"
+            android:label="Manage Event" />
+        <activity
+            android:name=".EventListActivity"
+            android:label="Manage Event" />
+
+        <activity
+            android:name=".ManageStaffActivity"
+            android:label="Manage Staff" />
+        <meta-data
+            android:name="com.google.firebase.database.DEBUG"
+            android:value="true" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:label="Splash Screen" />
+        <activity
+            android:name=".SignupActivity"
+            android:label="SignUp" />
+        <activity
+            android:name=".HomepageActivity"
+            android:label="Homepage" />
+        <activity
+            android:name=".InventoryActivity"
+            android:label="Inventory" />
+        <activity
+            android:name=".ReportsActivity"
+            android:label="Report" />
+        <activity
+            android:name=".FeedbackSupportActivity"
+            android:label="Feedback" />
+        <activity
+            android:name=".ContactActivity"
+            android:label="contact" />
+        <activity
+            android:name=".AdoptionManagementActivity"
+            android:label="adoption" />
+        <activity
+            android:name=".UpdateAdoptionStatusActivity"
+            android:label="update" />
+        <activity
+            android:name=".ChildManagementActivity"
+            android:label="child" />
+        <meta-data android:name="com.google.android.gms.wallet.api.enabled" android:value="true" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

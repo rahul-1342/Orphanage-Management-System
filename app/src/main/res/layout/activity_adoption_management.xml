@@ -1,0 +1,67 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Name -->
+        <EditText
+            android:id="@+id/et_adopter_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_background"
+            android:padding="12dp"
+            android:layout_marginBottom="8dp"
+            android:hint="Adopter Name"
+            android:inputType="textPersonName" />
+
+        <!-- Contact -->
+        <EditText
+            android:id="@+id/et_adopter_contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_background"
+            android:padding="12dp"
+            android:layout_marginBottom="8dp"
+            android:hint="Contact Number"
+            android:inputType="phone" />
+
+        <!-- Child Preference -->
+        <EditText
+            android:id="@+id/et_child_preference"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Child Preference (e.g., age, gender)"
+            android:background="@drawable/input_background"
+            android:padding="12dp"
+            android:layout_marginBottom="8dp"
+            android:inputType="text" />
+
+        <!-- Documents Upload -->
+
+
+        <!-- Submit Application -->
+        <Button
+            android:id="@+id/btn_submit_application"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Submit Application" />
+
+        <!-- Status Section -->
+        <TextView
+            android:id="@+id/tv_application_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text="Application Status: Pending"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "96903914888",
+    "project_id": "orphanageandroidapp",
+    "storage_bucket": "orphanageandroidapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96903914888:android:1ba2fc37188021d82dc63d",
+        "android_client_info": {
+          "package_name": "com.example.orphanage"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHXFGj4Q5I8p4ypDTHU0I9o6c-8J0vMeA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

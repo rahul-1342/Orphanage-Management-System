@@ -1,0 +1,88 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Donor Name -->
+        <EditText
+            android:id="@+id/etDonorName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Donor Name"
+            android:padding="12dp"
+            android:background="@drawable/input_background"
+            android:layout_marginBottom="8dp"
+            android:inputType="textPersonName" />
+
+        <!-- Donor Email -->
+        <EditText
+            android:id="@+id/etDonorEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_background"
+            android:hint="Email"
+            android:padding="12dp"
+            android:layout_marginBottom="8dp"
+            android:inputType="textEmailAddress" />
+
+        <!-- Donor Phone -->
+        <EditText
+            android:id="@+id/etDonorPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_background"
+            android:hint="Phone Number"
+            android:padding="12dp"
+            android:layout_marginBottom="8dp"
+            android:inputType="phone" />
+
+        <!-- Donation Amount -->
+        <EditText
+            android:id="@+id/etDonationAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Donation Amount"
+            android:padding="12dp"
+            android:background="@drawable/input_background"
+            android:inputType="numberDecimal" />
+
+        <!-- Donation Category -->
+        <Spinner
+            android:id="@+id/spinnerCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/donation_categories"
+            android:layout_marginTop="8dp" />
+
+        <!-- Razorpay Donate Button -->
+
+
+        <!-- Google Pay Donate Button -->
+        <Button
+            android:id="@+id/btnDonate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:text="Donate"
+            android:layout_marginTop="16dp"
+            android:clickable="true" />
+
+        <!-- PhonePe Donate Button -->
+
+        <!-- Status -->
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Payment Status will appear here."
+            android:textColor="@android:color/holo_green_dark"
+            android:visibility="gone"
+            android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+</ScrollView>

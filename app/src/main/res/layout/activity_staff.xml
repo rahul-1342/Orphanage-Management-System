@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- ListView for displaying staff -->
+    <ListView
+        android:id="@+id/lvStaff"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp" />
+
+    <!-- Button to accept application -->
+    <Button
+        android:id="@+id/btn_accept"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Accept Application"
+        android:contentDescription="Accept the selected staff application" />
+
+    <!-- Button to reject application -->
+    <Button
+        android:id="@+id/btn_reject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reject Application"
+        android:contentDescription="Reject the selected staff application" />
+
+    <!-- Button to add children -->
+    <Button
+        android:id="@+id/btnAddChildren"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Children"
+        android:contentDescription="Navigate to add children" />
+
+</LinearLayout>

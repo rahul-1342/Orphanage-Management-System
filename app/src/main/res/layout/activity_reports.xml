@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvTotalDonations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Donations Received: $0"
+        android:textSize="18sp"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/tvChildrenAdded"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Number of Children Added: 0"
+        android:textSize="18sp"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/tvChildrenAdopted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Number of Children Adopted: 0"
+        android:textSize="18sp"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/tvInventoryUsage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inventory Usage: Details unavailable"
+        android:textSize="18sp"
+        android:padding="8dp" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvActivitiesReport"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Activities Report: Details unavailable"-->
+<!--        android:textSize="18sp"-->
+<!--        android:padding="8dp" />-->
+
+    <Button
+        android:id="@+id/btnRefreshReports"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Refresh Reports"
+        android:padding="12dp"
+        android:background="@color/purple_500"
+        android:textColor="#FFF" />
+
+</LinearLayout>

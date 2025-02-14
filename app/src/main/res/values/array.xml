@@ -1,0 +1,9 @@
+<resources>
+    <string-array name="event_categories">
+        <item>Educational Events</item>
+        <item>Cultural and Festive Events</item>
+        <item>Sports and Physical Activities</item>
+        <item>Health and Wellness</item>
+        <item>Social and Developmental Events</item>
+    </string-array>
+</resources>
