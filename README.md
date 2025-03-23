@@ -3,7 +3,7 @@ The Orphanage Management System is a software solution designed to streamline an
 # 📱 Orphanage Management System (Android App)
 
 ## 🚀 Project Overview
-This is an **Android-based Orphanage Management System** that helps orphanages manage child records, donations, volunteers, and adoption requests. Built using **Android Studio**, **Firebase/SQLite**, and **Java/Kotlin**.
+This is an **Android-based Orphanage Management System** that helps orphanages manage child records, donations, volunteers, and adoption requests. Built using **Android Studio**, **Firebase**, and **Java**.
 
 ---
 
